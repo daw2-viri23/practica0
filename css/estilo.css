@@ -1,0 +1,349 @@
+/*En este apartado elegiremos todo el html modificandolo*/
+*{
+    margin: 0; /*Con el margin lo que conseguiremos es dar margen al apartado que elegimos en el html*/
+    padding: 0; /*Con el padding lograremos darle un espacio relleno*/
+    font-size: 20px; /*Con el font-size aumentaremos o disminuiremos el tamaño del texto o lo que hayamos marcado*/
+    font-family: 'Roboto Slab', serif; /*agregamos na fuente de letra*/
+}
+/*een este apartado elegiremos los li que hay en los ul*/
+li ul{
+    display: none; /*Con el display-none lo que lograremos es decirle al navegador que no lo represente*/
+    
+}
+/*En este div podremos realizar que el menu se desplegue*/
+#lista li:hover>ul{
+    display: block; /*Un elemento de bloque es un elemento que ocupa el ancho máximo disponible*/
+    text-decoration: none; /*Con esto podemos quitarle la decoracion que hay en el texto como vienen siendo enlaces o otros tipos*/
+    list-style: none; /*Con esto quitaremos los puntos que se adhieren a la lista*/
+    
+
+}
+/*elegimos el div que queremos modificar*/
+#lista{
+    
+    list-style: none; /*Con esto quitaremos los puntos que se adhieren a la lista*/
+    background-color: #f5f6f7;  /*Aqui agregaremos el color de fondo de este apartado*/
+	width: 17rem; /*En este apartado podremos personalizar el ancho*/
+    padding: 20px;/*Con el padding lograremos darle un espacio relleno*/
+    color: gray;/*Con el color podremos darle color al texto o simbolos que eligamos*/
+    justify-content: center;/*Justificamos el contenido del div en el centro*/
+    align-items: center;/*alineamos el contenido al centro*/
+    order: 1;/*especifica el orden utilizado para disponer los elementos en su contenedor flexible*/
+    flex: 1;/*es una propiedad resumida que indica la capacidad de un elemento flexible*/
+
+    
+}
+
+/*elegimos los li que hay en el div*/
+#estilomenu li{
+    font-size: 0.9em; /*Con el font-size aumentaremos o disminuiremos el tamaño del texto o lo que hayamos marcado*/
+    letter-spacing: 0.07em; /*define una cantidad adicional de espacio entre caracteres.*/
+    border-bottom: solid 1px rgba(210, 215, 217, 0.75); /*con este apartado podremos agregar una linea debajo de donde queramos*/
+    margin: 15px; /*Con el margin lo que conseguiremos es dar margen al apartado que elegimos en el html*/
+    text-align: left;/*Alineamos el texto donde nos convenga*/
+    padding-bottom: 10px;/*agregmos un relleno a la linea que se agrego previamente*/
+    text-decoration: none;/*Con esto podemos quitarle la decoracion que hay en el texto como vienen siendo enlaces o otros tipos*/
+    list-style: none; /*Con esto quitaremos los puntos que se adhieren a la lista*/
+}
+
+#lista h2{
+    color: #3d4449;/*Con el color podremos darle color al texto o simbolos que eligamos*/
+    font-family: 'Roboto Slab', serif; /*agregamos na fuente de letra*/
+    font-size: 1.38889rem;/*Con el font-size aumentaremos o disminuiremos el tamaño del texto o lo que hayamos marcado*/
+    border-bottom: solid 3px #f56a6a;/*con este apartado podremos agregar una linea debajo de donde queramos*/
+    display: inline-block;/*crea cajas que son de bloque y en línea de forma simultánea*/
+    margin: 15px; /*Con el margin lo que conseguiremos es dar margen al apartado que elegimos en el html*/
+}
+
+ul{
+    text-decoration: none;/*Con esto podemos quitarle la decoracion que hay en el texto como vienen siendo enlaces o otros tipos*/
+    list-style: none; /*Con esto quitaremos los puntos que se adhieren a la lista*/
+}
+li{
+    text-decoration: none;/*Con esto podemos quitarle la decoracion que hay en el texto como vienen siendo enlaces o otros tipos*/
+    list-style: none; /*Con esto quitaremos los puntos que se adhieren a la lista*/
+    
+    
+}
+
+a{
+    text-decoration: none;/*Con esto podemos quitarle la decoracion que hay en el texto como vienen siendo enlaces o otros tipos*/
+    color: #3d4449;/*Con el color podremos darle color al texto o simbolos que eligamos*/
+}
+#informacion1{
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+    
+}
+#informacion1 i{
+    padding: 15px;/*Con el padding lograremos darle un espacio relleno*/
+}
+#informacion2{
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+    
+}
+#informacion2 i{
+    padding: 8px;/*Con el padding lograremos darle un espacio relleno*/
+}
+#informacion3{
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+    
+}
+#informacion3 i{
+    padding: 15px;/*Con el padding lograremos darle un espacio relleno*/
+}
+
+#lista p{
+    display: block;/*Un elemento de bloque es un elemento que ocupa el ancho máximo disponible*/
+    margin-block-start: 1em;/* define el bloque lógico de inicio y fin de las márgenes de un elemento*/
+    margin-block-end: 1em;/* define el bloque lógico de inicio y fin de las márgenes de un elemento*/
+    margin-inline-start: 0px;/* define el bloque lógico de inicio y fin de las márgenes de un elemento*/
+    margin-inline-end: 0px;/* define el bloque lógico de inicio y fin de las márgenes de un elemento*/
+    margin: 0 0 2em 0;/*Con el margin lo que conseguiremos es dar margen al apartado que elegimos en el html*/
+    
+}
+#lista button{
+    text-decoration:none;/*Con esto podemos quitarle la decoracion que hay en el texto como vienen siendo enlaces o otros tipos*/
+    font-weight: 600;/*anchura del texto*/
+    font-size: 20px;/*Con el font-size aumentaremos o disminuiremos el tamaño del texto o lo que hayamos marcado*/
+    color:#f56a6a;/*Con el color podremos darle color al texto o simbolos que eligamos*/
+    padding-top:15px;/*relleno superior*/
+    padding-bottom:15px;/*relleno inferior*/
+    padding-left:40px;/*relleno izquierdo*/
+    padding-right:40px;/*relleno derecho*/
+    background-color: #f5f6f7;/*Aqui agregaremos el color de fondo de este apartado*/
+    border-color: #f56a6a;/*color del borde*/
+    border-width: 3px;/*anchura del borde*/
+    border-style: solid;/*tipo del borde*/
+}
+#red{
+    border-bottom: solid#f56a6a;/*borde inferior*/
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+    margin: 20px; /*margen*/
+    padding-bottom: 25px;/*relleno inferior*/
+
+}
+
+#cuerpo{
+    align-items: center;/*alinear al centro*/
+    justify-content: center;/*justificar al centro*/
+    margin: 3px;/*margen*/
+}
+
+#container{
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+    font-size: 1.5em;/*tamaño del texto*/
+    flex-grow: 1;/*especifica el factor de crecimiento de un elemento flexible*/
+}
+.iconos{
+    margin-left: 1130px;/*margen izquierdo*/
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+    text-decoration: none;/*quitamos la decoracion al texto*/
+    color: #3d4449;/*color del apartado*/
+    list-style: none;/*quitamos la decoracion al la lista*/
+    
+
+}
+#inicio{
+    margin: 40px;/*margen*/
+    display: flex/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+
+}
+#texto h1{
+    color: #3d4449;/*color de este apartado*/
+    font-family: "Roboto Slab", serif;/*duente de letra*/
+    font-weight: 700;/*anchura del texto*/
+    line-height: 1.5;
+    font-size: 3.5rem;/*tamaño del texto*/
+}
+#simbolo-menu{
+    padding: 15px;/*relleno*/
+    color: #f56a6a;/*color de este apartado*/
+}
+
+
+
+#inicio button{
+    text-decoration:none;/*quitamos la decoracion al texto*/
+    font-weight: 600;/*anchura de la fuente*/
+    font-size: 20px;/*tamaño letra*/
+    color:#f56a6a;/*color de este apartado*/
+    padding-top:15px;/*relleno superior*/
+    padding-bottom:15px;/*relleno inferior*/
+    padding-left:40px;/*relleno izquierdo*/
+    padding-right:40px;/*relleno derecho*/
+    background-color:white;/*color del fondo*/
+    border-color: #f56a6a;/*color del borde*/
+    border-width: 3px;/*anchura del borde*/
+    border-style: solid;/*estilo del borde*/
+}
+#texto-medio{
+    color: gray;/*color de este apartado*/
+    text-decoration: none;/*decoracion del texto*/
+    width: 650px;/*anchura*/
+}
+#query{
+    background: #ffffff;/*color del fondo*/
+    border-radius: 0.375em;/*estilo borde*/
+    border: solid 1px rgba(210, 215, 217, 0.75);/*tamaño del borde*/
+    color: inherit;/*color de este apartado*/
+    display: block;/*Un elemento de bloque es un elemento que ocupa el ancho máximo disponible*/
+    outline: 0;
+    padding: 0 1em;/*relleno*/
+    text-decoration: none;/*la decoracion del texto*/
+    width: 80%;/*anchura al 80%*/
+    height: 2.75em;/*altura del apartado*/
+}
+#buscador{
+    background-color: #eff1f2;/*color de fondo*/
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);/*borde inferior*/
+    background-color: #eff1f2;/*color fondo*/
+    border-bottom: 0;/*borde inferior*/
+    margin: -2em;/*margen*/
+    padding: 2em;/*relleno*/
+    width: 94%;/*anchura*/
+}
+#erat-lacinia h2{
+    color: #3d4449;/*color de este apartado*/
+    font-family: "Roboto Slab", serif;/*tipo de fuente*/
+    font-size: 1.38889rem;/*tamaño de letra*/
+    border-bottom: solid 3px #f56a6a;/*tamaño y color del borde*/
+    display: inline-block;/*crea cajas que son de bloque y en línea de forma simultánea*/
+    font-size: 1.75em;/*tamaño de letra*/
+    margin: 40px;/*margen*/
+    padding-bottom: 10px;/*relleno inferior*/
+    
+    
+}
+#erat-lacinia{
+    margin: 10px;/*margen*/
+    
+}
+#intermedio{
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+    padding: 20px;/*relleno*/
+    
+}
+#icono1{
+    float: left;/*movemos este apartado a la izquierda*/
+    padding: 42px;/*relleno*/
+    border: solid gray 1px;/*tamaño y color del borde*/
+    color: #f56a6a;/*color de este apartado*/
+    margin-right: 35px;/*margen derecho*/
+    transform: rotate(45deg);/*rotacion del borde*/
+}
+#icono2{
+    float: left;/*movemos este apartado a la izquierda*/
+    padding: 40px;/*relleno*/
+    border: solid gray 1px;/*tamaño y color del borde*/
+    color: #f56a6a;/*color de este apartado*/
+    margin-right: 35px;/*margen derecho*/
+    transform: rotate(45deg);/*rotamos este apartado*/
+}
+#lineas hr{
+    margin: 50px;/*margen*/
+}
+#texto-icono1{
+    margin: 2%;/*margen*/
+    
+}
+#texto-icono1 h3{
+    color: #3d4449;/*color de este apartado*/
+    font-family: "Roboto Slab", serif;/*fuente de la letra*/
+    padding: 10px;/*relleno*/
+}
+
+#texto-icono2{
+    margin: 2%;/*margen*/
+}
+#texto-icono2 h3{
+    color: #3d4449;/*color de este apartado*/
+    font-family: "Roboto Slab", serif;/*tipo de fuente de letra*/
+    padding: 10px;/*relleno*/
+}
+#icono3{
+    float: left;/*vueve este apartado a la izquierda*/
+    padding: 46px;/*relleno*/
+    border: solid gray 1px;/*tamaño y color del borde*/
+    color: #f56a6a;/*color de este apartado*/
+    margin-right: 35px;/*margen derecho*/
+    transform: rotate(45deg);/*rotara este apartado*/
+}
+#texto-icono3{
+    margin: 2%;/*margen*/
+}
+#texto-icono3 h3{
+    color: #3d4449;/*color de este apartado*/
+    font-family: "Roboto Slab", serif;/*fuente de letra*/
+    padding: 5px;/*relleno*/
+}
+
+#texto-icono4{
+    margin: 2%;/*margen*/
+}
+#texto-icono4 h3{
+    color: #3d4449;/*color de este apartado*/
+    font-family: "Roboto Slab", serif;/*fuente de letra*/
+    padding-left: 3px;/*relleno izquierdo*/
+    padding: 10px;/*relleno*/
+    
+}
+#icono4{
+    float: left;/*mueve el apartado de la izquierda*/
+    padding: 42px;/*relleno*/
+    border: solid gray 1px;/*tamaño y color del borde*/
+    color: #f56a6a;/*color de este apartado*/
+    margin-right: 35px;/*margen derecho*/
+    transform: rotate(45deg);/*rotacion de este apartado*/
+    
+}
+#icono4 i {
+    
+    transform: rotate(-45deg);/*rotacion de este apartado*/
+    
+}
+#icono3 i {
+
+    transform: rotate(-45deg);/*rotacion de este apartado*/
+    
+}
+#icono2 i {
+
+    transform: rotate(-45deg);/*rotacion de este apartado*/
+    
+}
+#icono1 i {
+
+    transform: rotate(-45deg);/*rotacion de este apartado*/
+       
+}
+#final{
+    margin: 40px;/*margen*/
+}
+#final h2{
+    color: #3d4449;/*color de este apartado*/
+    font-family: "Roboto Slab", serif;/*fuente de letra*/
+    font-size: 1.38889rem;/*tamaño del texto*/
+    border-bottom: solid 3px #f56a6a;/*tamaño y color del borde*/
+    display: inline-block;/*crea cajas que son de bloque y en línea de forma simultánea*/
+    font-size: 1.75em;/*tamaño del texto*/
+    padding-bottom: 10px;/*relleno inferior*/
+
+}
+#imagenes{
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+}
+#imagenes p {
+    margin-right: 20px;/*margen derecho*/
+    margin-bottom: 10px;/*margen inferior*/
+}
+#imagenes h3{
+    font-size: 1.25em;/*taaño del texto*/
+    margin-bottom: 10px;/*margen inferior*/
+}
+#imagenes button{
+    font-size: 1.25em;/*tamaño del texto*/
+    margin-bottom: 3px;/*margen inferior*/
+    background-color: white;/*color del fondo*/
+    border: #f56a6a 1px solid;/*tamaño y color del borde*/
+    color: #f56a6a;/*color de este apartado*/
+}
